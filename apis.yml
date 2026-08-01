@@ -1,9 +1,19 @@
 aid: partiful
 name: Partiful
-description: 'Partiful is a company surfaced as a portfolio company of bond-capital, canaan-partners,
-  gv, initialized-capital and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Partiful is a free consumer event-invitation and party-planning platform for creating customized digital invites, managing RSVPs, coordinating guests with polls and custom questions, sending text-blast updates, selling tickets or collecting payments via a Stripe integration, and sharing event photos across web, iOS, and Android. It was surfaced as a portfolio company of Bond Capital, Canaan Partners, GV, and Initialized Capital. Partiful publishes no official public developer API or developer portal; a community-maintained reverse-engineered client library exists on GitHub but is not first-party. This profile captures the provider identity and probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/partiful/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/nmEtO7Or6QjCxmQSTLDrLUZ9A.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -15,10 +25,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Events
+- Invitations
+- Party Planning
+- RSVP
+- Social
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +43,18 @@ maintainers:
 common:
 - type: Website
   url: https://partiful.com
+- type: Support
+  url: https://help.partiful.com/hc/en-us
+- type: Blog
+  url: https://partiful.com/blog
+- type: PrivacyPolicy
+  url: https://partiful.com/privacy
+- type: TermsOfService
+  url: https://partiful.com/terms
+- type: DomainSecurity
+  url: security/partiful-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
